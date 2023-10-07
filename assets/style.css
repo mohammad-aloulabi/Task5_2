@@ -63,9 +63,7 @@
     color: black;
 }
 
-.arrow-h {
-    color: red;
-}
+
 
 /* -------------------------servises card-------------------------- */
 .img-card {
@@ -102,11 +100,25 @@
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
-
 }
 
 .card-img-top:hover {
     width: 110px !important;
+}
+
+/* -----------------------------------------INNOVATIVE------------------------------------------ */
+.space {
+    margin-bottom: 40px !important;
+}
+
+.image img {
+    width: 68px;
+    transition: 1s all;
+
+}
+
+.image img:hover {
+    width: 74px;
 }
 
 /* ---------------------------------POSSIBILITIES------------------------------ */
@@ -178,7 +190,7 @@
     /* transform: rotateX(90deg); */
 }
 
-/* ------------------------------------------------------------------ */
+/* -----------------------------arrivals------------------------------------- */
 
 #arrivals {
     position: relative;
@@ -221,6 +233,7 @@
     transition: 1s all;
 }
 
+
 #arrivals .card-body {
     position: relative;
     z-index: 1;
@@ -233,7 +246,6 @@
     position: absolute;
     top: 280px;
     padding: 20px 0;
-    background-color: black;
     color: white;
     transform: translateY(100%);
     opacity: 0;
@@ -243,13 +255,18 @@
 #arrivals .card:hover .cart {
     transform: translateY(0);
     opacity: 1;
+    background-color: red;
 }
 
-/* ---------------------------------------------------------------- */
-
-#love,
-footer {
+#love {
     background-image: url(./img/love.webp);
+}
+
+/* -------------------------------footer--------------------------------- */
+
+
+footer {
+    background-color: black;
 
 }
 
@@ -322,5 +339,9 @@ footer {
 
     #arrivals .card {
         width: 22.2708vw !important;
+    }
+
+    .img-mobile {
+        width: 200px;
     }
 }

@@ -11,6 +11,10 @@ flags.forEach(element => {
 
 const child = document.querySelectorAll("#arrivals .card")
 const card1 = document.querySelector("#arrivals #card1 img")
+const card2 = document.querySelector("#arrivals #card2 img")
+const card3 = document.querySelector("#arrivals #card3 img")
+const card4 = document.querySelector("#arrivals #card4 img")
+const card5 = document.querySelector("#arrivals #card5 img")
 const next = document.querySelector("#arrivals #next")
 const prev = document.querySelector("#arrivals #prev")
 let count = 0;
@@ -44,4 +48,38 @@ card1.addEventListener("mouseenter", () => {
 
 card1.addEventListener("mouseout", () => {
     card1.src = "./assets/img/card1.webp"
+})
+
+
+card2.addEventListener("mouseenter", () => {
+    card2.src = "./assets/img/phone2.webp"
+})
+
+card2.addEventListener("mouseout", () => {
+    card2.src = "./assets/img/phone3.webp"
+})
+
+
+card3.addEventListener("mouseenter", () => {
+    card3.src = "./assets/img/phone3.webp"
+})
+
+card3.addEventListener("mouseout", () => {
+    card3.src = "./assets/img/card1.webp"
+})
+
+
+card4.addEventListener("mouseenter", () => {
+    card4.src = "./assets/img/phone3.webp"
+})
+card4.addEventListener("mouseout", () => {
+    card4.src = "./assets/img/phone2.webp"
+})
+
+
+card5.addEventListener("mouseenter", () => {
+    card5.src = "./assets/img/phone3.webp"
+})
+card5.addEventListener("mouseout", () => {
+    card5.src = "./assets/img/phone2.webp"
 })
