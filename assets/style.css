@@ -344,4 +344,14 @@ footer {
     .img-mobile {
         width: 200px;
     }
+
+    .input-footer {
+        width: 200px;
+        margin: auto;
+    }
+
+    .width-more {
+        text-align: center;
+        width: 50% !important;
+    }
 }
